@@ -1,7 +1,6 @@
 # Part 2: Functions
 # Parameters: N/A
 # Returns: N/A
-
 import math
 
 def mars_weight():
@@ -14,7 +13,7 @@ def mars_weight():
     earth_wght = float(input('What is your weight? '))
     mars = (earth_wght*.38)
     print('At a weight of ', int(earth_wght),
-          ' pounds you would weigh ', int(mars), ' pounds on Mars.')
+          ' pounds you would weigh ', int(mars), ' pounds on Mars.',"\n")
 
 
 mars_weight()
@@ -25,14 +24,14 @@ mars_weight()
 
 def volume_of_cone():
     """The function uses the input values of the parameters to return a value
-    for the volume of the cone.abs."""
+    for the volume of the cone."""
     r = int(input('What is the length of the radius of the cone? '))
     h = int(input('What is the height of the cone? '))
 
     v = float((math.pi*r*r*h)/3)  
     return v
 
-print("{:.3f}".format((volume_of_cone())))
+print("{:.3f}".format((volume_of_cone())),"\n")
 
 # Function: Liquid Converter
 # Parameters: N/A
@@ -52,7 +51,7 @@ def liquid_converter():
     new3_fluid_oz = new2_fluid_oz - (pint*16)
     gill = new3_fluid_oz // 4
 
-    print(fluid_oz, " fluid ounces is ", galls, " gallon(s) ", quart, " quart(s) ", pint , " pint(s) ", gill, " gill(s)" )
+    print(fluid_oz, " fluid ounces is ", galls, " gallon(s) ", quart, " quart(s) ", pint , " pint(s) ", gill, " gill(s)", "\n")
 
 liquid_converter()
 
