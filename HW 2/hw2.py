@@ -325,9 +325,9 @@ print(can_afford_concerts(355),"\n")
 def what_can_you_do (age):
     if age < 18:
         return "Sorry, you're not old enough for any of these"
-    elif age >= 18 or age < 21:
+    elif age >= 18 and age < 21:
         return "You can vote."
-    elif age >= 21 or  age < 65:
+    elif age >= 21 and  age < 65:
         return "You can vote and drink."
     else:
         return "You can vote, drink, and retire"
