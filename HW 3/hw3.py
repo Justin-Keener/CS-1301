@@ -178,7 +178,6 @@ print(remove_vowels("logArithm"),"\n")
     integer returned if the user quits should be -1. If the user has not guessed the correct answer within
     the 5th try, print that they’ve lost the game, and return 0. You must use a while-loop.
 """
-
 def guess_dumplings(number_of_dumplings):
     guesses = 0
     msg = ""
